@@ -1,1 +1,21 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+
+const testFolder = './docs/assets/images';
+const fs = require('fs');
+
+fs.readdir(testFolder, (err, files) => {
+  files.forEach(file => {
+    console.log(file);
+    <img src= file >
+  });
+});
+</script>
+
+</body>
+</html>
